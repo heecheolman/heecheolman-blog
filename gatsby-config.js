@@ -6,14 +6,68 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+
+    /**
+     * node sass
+     */
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/content/images`,
       },
     },
+
+    /**
+     * file system
+     */
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/about`,
+        name: `about`,
+      },
+    },
+
+    /**
+     * remark
+     */
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        // CommonMark mode (default: true)
+        commonmark: true,
+        // Footnotes mode (default: true)
+        footnotes: true,
+        // Pedantic mode (default: true)
+        pedantic: true,
+        // GitHub Flavored Markdown mode (default: true)
+        gfm: true,
+        // Plugins configs
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 590,
+            },
+          },
+          `gatsby-remark-autolink-headers`,
+          `gatsby-remark-emoji`
+        ],
+      },
+    },
+
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
