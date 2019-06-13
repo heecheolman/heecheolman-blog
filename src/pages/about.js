@@ -1,14 +1,15 @@
-import React from "react"
-import Main from '../components/templates/main';
+import React from 'react';
 import Header from './../components/organisms/header';
 import Footer from './../components/organisms/footer';
 
-const IndexPage = () => (
+const AboutPage = () => (
   <div>
     <Header />
-    <Main />
+    <p>
+      about 페이지입니다.
+    </p>
     <Footer />
   </div>
-)
+);
 
-export default IndexPage
+export default AboutPage;
