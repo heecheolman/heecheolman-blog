@@ -1,13 +1,26 @@
 import React from 'react';
 import styles from './header.module.scss';
-import { Link } from 'gatsby';
+import { Link, graphql, StaticQuery } from "gatsby"
 
 const Header = () => (
-  <div className={styles.header}>
-    희철맨입니다.
-    <Link to="/">main</Link>
-    <Link to="/about">about</Link>
-  </div>
+  <StaticQuery
+    query={graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+          }
+        }
+      }
+    `}
+    render={data => (
+      <div className={styles.header}>
+        <h1>{data.site.siteMetadata.title}</h1>
+        <Link to="/">main</Link>
+        <Link to="/about">about</Link>
+      </div>
+    )}
+  />
 );
 
 export default Header;
