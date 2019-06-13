@@ -1,14 +1,48 @@
 import React from "react"
-import Main from '../components/templates/main';
-import Header from './../components/organisms/header';
-import Footer from './../components/organisms/footer';
+import { graphql } from "gatsby"
 
-const IndexPage = () => (
-  <div>
-    <Header />
-    <Main />
-    <Footer />
-  </div>
-)
+/** components */
+import { Layout } from './../layout'
+import { PostList } from './../components/post-list';
 
-export default IndexPage
+const IndexPage = ({ data }) => {
+  const { siteMetadata } = data.site;
+  const posts = data.allMarkdownRemark.edges;
+
+  return (
+    <div>
+      <Layout title={siteMetadata.title}>
+        <PostList posts={posts} />
+      </Layout>
+    </div>
+  )
+}
+export default IndexPage;
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { category: { ne: null } } }
+    ) {
+      edges {
+        node {
+          excerpt(pruneLength: 200, truncate: true)
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            category
+          }
+        }
+      }
+    }
+  }
+`
