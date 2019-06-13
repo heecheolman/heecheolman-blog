@@ -11,13 +11,6 @@ module.exports = {
      * node sass
      */
     `gatsby-plugin-sass`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/content/images`,
-      },
-    },
 
     /**
      * file system
@@ -25,14 +18,21 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
+        name: `images`,
+        path: `${__dirname}/src/content/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/content/blog`,
         name: `blog`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/about`,
+        path: `${__dirname}/src/content/about`,
         name: `about`,
       },
     },
@@ -51,6 +51,10 @@ module.exports = {
         pedantic: true,
         // GitHub Flavored Markdown mode (default: true)
         gfm: true,
+        tableOfContents: {
+          heading: null,
+          maxDepth: 6,
+        },
         // Plugins configs
         plugins: [
           {
