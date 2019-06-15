@@ -4,10 +4,10 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-
 // You can delete this file if you're not using it
 const path = require('path');
 const { createFilePath } = require('gatsby-source-filesystem');
+
 
 /** @see https://www.gatsbyjs.org/packages/gatsby-source-filesystem/?=files#createfilepath */
 exports.createPages = ({ actions, graphql }) => {
@@ -43,7 +43,7 @@ exports.createPages = ({ actions, graphql }) => {
     // Create blog posts pages.
     const posts = result.data.allMarkdownRemark.edges.filter(
       ({ node }) => !!node.frontmatter.category
-    )
+    );
 
     posts.forEach((post, index) => {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node
@@ -63,12 +63,12 @@ exports.createPages = ({ actions, graphql }) => {
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
+  const { createNodeField } = actions;
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const value = createFilePath({ node, getNode });
 
-    console.log(value)
+    console.log(value);
 
     createNodeField({
       name: `slug`,
