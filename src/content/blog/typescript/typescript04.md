@@ -1,7 +1,7 @@
 ---
 title: '타입스크립트04'
 date: 2019-01-03 15:38:55
-category: 'dev'
+category: 'typescript'
 ---
 
 <div align=center>

@@ -1,7 +1,7 @@
 ---
 title: 'GraphQL'
 date: 2019-4-29 23:28:11
-category: 'dev'
+category: 'graphql'
 ---
 
 # GraphQL

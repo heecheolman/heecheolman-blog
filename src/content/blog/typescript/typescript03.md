@@ -1,7 +1,7 @@
 ---
 title: '타입스크립트03'
 date: 2018-12-29 18:14:32
-category: 'dev'
+category: 'typescript'
 ---
 
 # 타입스크립트 인터페이스

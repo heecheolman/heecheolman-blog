@@ -1,7 +1,7 @@
 ---
 title: '타입스크립트02'
 date: 2018-12-28 15:18:22
-category: 'dev'
+category: 'typescript'
 ---
 
 # Typescript - basic types

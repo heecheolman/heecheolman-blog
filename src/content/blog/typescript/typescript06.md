@@ -1,7 +1,7 @@
 ---
 title: '타입스크립트06'
 date: 2019-01-06 23:29:01
-category: 'dev'
+category: 'typescript'
 ---
 
 # 타입스크립트 제네릭

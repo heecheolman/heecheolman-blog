@@ -1,7 +1,7 @@
 ---
 title: '타입스크립트 keyof'
 date: 2019-01-06 23:29:17
-category: 'dev'
+category: 'typescript'
 ---
 
 # 인덱스타입 (Index types)

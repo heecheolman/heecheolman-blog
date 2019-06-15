@@ -1,7 +1,7 @@
 ---
 title: '타입스크립트05'
 date: 2019-01-03 17:59:11
-category: 'dev'
+category: 'typescript'
 ---
 
 # 타입스크립트 함수
