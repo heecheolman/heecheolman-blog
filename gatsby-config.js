@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `heecheolman 로그`,
+    title: `heecheolman`,
     description: `개발 및 일상관련해 로그를 남기고 싶습니다.`,
     author: `@heecheolman`,
   },
@@ -36,6 +36,18 @@ module.exports = {
     //     name: `about`,
     //   },
     // },
+    /**
+     * svg-icon
+     */
+
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets/ // See below to configure properly
+        }
+      }
+    },
 
     /**
      * remark
