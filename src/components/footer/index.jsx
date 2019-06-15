@@ -1,8 +1,12 @@
 import React from 'react';
+
+/** components */
+import { CategoryBar } from './../category-bar';
+
 import './index.scss';
 
 export const Footer = () => (
   <footer className="footer">
-    <h2>heecheolman 의 발</h2>
+    <CategoryBar />
   </footer>
-)
+);

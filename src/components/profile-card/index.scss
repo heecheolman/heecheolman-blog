@@ -1,0 +1,21 @@
+.profile-card {
+  margin: 30px auto;
+  padding: 10px;
+  width: 60%;
+  max-width: 300px;
+  border-radius: 10px;
+
+  .profile-card__avatar {
+    margin: 10px 0;
+  }
+
+  .profile-card__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
