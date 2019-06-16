@@ -1,0 +1,24 @@
+$mob-l-width: 1025px;
+$mob-m-width: 425px;
+$mob-s-width: 375px;
+
+// 모바일 large
+@mixin mob-large {
+  @media screen and (max-width: #{$mob-l-width}) {
+    @content;
+  }
+}
+
+// 모바일 mid
+@mixin mob-mid {
+  @media screen and (max-width: #{$mob-m-width}) {
+    @content;
+  }
+}
+
+// 모바일 small
+@mixin mob-small {
+  @media screen and (max-width: #{$mob-s-width}) {
+    @content;
+  }
+}

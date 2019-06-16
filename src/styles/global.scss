@@ -1,19 +1,45 @@
+@import '~github-markdown-css';
+@import '~highlight.js/styles/github-gist.css';
+@import './prism-github';
 @import './var';
 @import './flex';
+@import './theme.scss';
+@import './media';
 
 * {
   box-sizing: border-box;
 }
 html, body {
+  font-family: 'Noto Sans KR', Helvetica, sans-serif !important;
   margin: 0 auto;
-  padding: 0 10px $category-bar-height 10px;
+  padding: 0;
   width: 100%;
-  max-width: 700px;
+  //max-width: 700px;
   height: 100vh;
+  color: $content-color;
+}
+
+.markdown-body {
+  font-family: initial !important;
+  text-align: justify;
+  word-break: break-all;
+
+  @include mob-large {
+    word-break: keep-all;
+    text-align: left;
+  }
+}
+
+h1, h2, h3 {
+  border: none !important;
+}
+
+p, ul, li {
+  font-weight: 300 !important;
+  line-height: 160% !important;
 }
 
 @font-face {
   font-family: 'Graff';
   src: url('./../assets/font/Graff.ttf');
 }
-
