@@ -1,35 +1,48 @@
 @import './../../styles/var';
 
 .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: $header-height;
-  border-bottom: 2px dashed #e3e3e3;
-  font-family: 'Graff', Helvetica, serif;
 
   .header__title {
-    width: 200px;
-
     .header__title__icon {
       width: 50px;
       height: 50px;
     }
     .header__title__text {
       font-size: 30px;
-      color: $content-color;
+      color: $header-color;
+      font-weight: bold;
       text-decoration: none;
     }
     .header__title__text:visited {
-      color: $content-color;
+      color: $header-color;
     }
   }
+}
 
-  .header__github {
-    width: 70px;
-    height: 70px;
-
-    .header__github__icon {
-      width: 40px;
-      height: 40px;
-    }
-  }
+.headroom {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.headroom--unfixed {
+  top: 0;
+  left: 0;
+  transform: translateY(0);
+}
+.headroom--scrolled {
+  transition: transform 200ms ease-in-out;
+}
+.headroom--unpinned {
+  position: fixed;
+  transform: translateY(-100%);
+}
+.headroom--pinned {
+  position: fixed;
+  transform: translateY(0%);
 }

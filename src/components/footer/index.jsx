@@ -1,12 +1,9 @@
 import React from 'react';
 
-/** components */
-import { CategoryBar } from './../category-bar';
-
 import './index.scss';
 
 export const Footer = () => (
-  <footer className="footer">
-    <CategoryBar />
+  <footer className="footer flex flex-center-sort">
+    <span className="hee-labeled">©heecheolman</span>
   </footer>
 );

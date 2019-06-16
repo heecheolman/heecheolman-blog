@@ -3,12 +3,12 @@ import { graphql } from "gatsby"
 
 /** components */
 import { Layout } from './../layout';
+import { Header } from './../components/header';
 import { ProfileCard } from './../components/profile-card';
 import { CategoryBoardContainer } from '../components/category-board-container'
 
 const IndexPage = ({ data }) => {
   const { siteMetadata } = data.site;
-  console.log(siteMetadata.github);
   const posts = data.allMarkdownRemark.edges;
   const categorize = [];
   // let categories = [];
@@ -27,7 +27,8 @@ const IndexPage = ({ data }) => {
   return (
     <div>
       {/*@TODO 메타정보*/}
-      <Layout title={siteMetadata.title} github={siteMetadata.github}>
+      <Header />
+      <Layout>
         <ProfileCard profile={siteMetadata.profile} />
         <CategoryBoardContainer categorize={categorize} />
       </Layout>
@@ -41,10 +42,10 @@ export const query = graphql`
     site {
       siteMetadata {
         title
-        github
         profile {
           author
           pr
+          githubLink
         }
       }
     }

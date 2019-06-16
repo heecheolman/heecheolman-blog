@@ -1,12 +1,10 @@
 import React from 'react';
-import { Header } from './../components/header';
-// import { Footer } from './../components/footer';
+import { Footer } from './../components/footer';
+import './index.scss';
 
-
-export const Layout = ({ title, github, children }) => (
-  <>
-    <Header title={title} github={github} />
+export const Layout = ({ children }) => (
+  <div className="layout">
     { children }
-    {/*<Footer />*/}
-  </>
+    <Footer />
+  </div>
 );

@@ -1,9 +1,10 @@
 @import './../../styles/var';
 
 .footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
   height: $category-bar-height;
   background-color: transparent;
+  color: $blur;
+  font-size: 14px;
+  pointer-events: none;
 }
