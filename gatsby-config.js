@@ -2,10 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `heecheolman`,
     description: `개발 및 일상관련해 로그를 남기고 싶습니다.`,
-    github: `https://github.com/heecheolman`,
     profile: {
       author: `heecheolman`,
-      pr: `#프론트엔드 개발자`,
+      pr: `프론트엔드 개발자, 프론트엔드 개발자, 프론트엔드 개발자, 프론트엔드 개발자, 프론트엔드 개발자, 프론트엔드 개발자, `,
+      githubLink: `https://github.com/heecheolman`,
     }
   },
   plugins: [
@@ -29,7 +29,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/content/blog`,
+        path: `${ __dirname }/src/content/blog`,
         name: `blog`,
       },
     },
@@ -45,7 +45,7 @@ module.exports = {
      */
 
     {
-      resolve: "gatsby-plugin-react-svg",
+      resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {
           include: /assets/ // See below to configure properly
@@ -69,7 +69,7 @@ module.exports = {
         gfm: true,
         tableOfContents: {
           heading: null,
-          maxDepth: 6,
+          maxDepth: 3,
         },
         // Plugins configs
         plugins: [
@@ -83,11 +83,30 @@ module.exports = {
             },
           },
           `gatsby-remark-autolink-headers`,
-          `gatsby-remark-emoji`
+          `gatsby-remark-emoji`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              inlineCodeMarker: '%',
+            },
+          },
         ],
       },
     },
-
+    /** google fonts */
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Noto Sans KR`,
+          },
+          {
+            family: `Nanum Gothic`,
+          }
+        ],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
