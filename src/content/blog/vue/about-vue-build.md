@@ -1,10 +1,9 @@
 ---
-title: 'Vue 빌드'
+title: 'Vue Webpack Template 의 빌드 파헤치기'
 date: 2018-07-09 09:08:13
 category: 'vue'
 ---
 
-# vue-webpack-template 의 빌드 파헤치기
 vue의 `webpack` 보일러플레이트의 빌드를 알아보기위해 작성하였습니다.  
 틀린 부분도 많을것이지만 차차 알아가며 수정을 하도록 하겠습니다.
 
@@ -45,7 +44,7 @@ vue 의 빌드과정을 알아보기위해 `build` 와 `config` 폴더를 세부
 ### node build/build.js
 먼저 build.js 를 통해 빌드를 시작합니다.
 
-### `build.js`
+### build.js
 각 모듈들의 버젼을 체크한 후에 설정에 맞게 모듈 번들링 시작
 
 ```javascript
@@ -84,11 +83,11 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
 })
 ```
 
-### `check-versions.js`
+### check-versions.js
 각 모듈들이 프로젝트에 대해 버젼이 유효한지 검사.  
 맞지않는 버젼이있다면 해당 버젼을 업데이트하라고 안내하고 프로그램 종료.
 
-### `utils.js`
+### utils.js
 * `assetsPath`  
 환경변수에 따라 assets 의 경로를 지정
 
@@ -99,9 +98,9 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
 에러메세지를 알람으로 만들어줌
 
 
-### `vue-loader.config.js`
+### vue-loader.config.js
 vue-loader 에 대한 설정을 별도의 파일로 분리
-### `webpack.base.config.js`
+### webpack.base.config.js
 배포모드 개발모드 상관없이 공통적으로 적용되는 설정을 해당 js 에서 설정  
 기존에 webpack.config.js 로 묶어서 했다면 여기서 prod 와 dev로 분기
 ```
@@ -111,10 +110,10 @@ vue-loader 에 대한 설정을 별도의 파일로 분리
  /        \
 prod      dev
 ```
-### `webpack.dev.config.js`
+### webpack.dev.config.js
 개발모드일때만 적용되는 설정들을 여기서 설정.  
 `webpack-merge`를 통해 webpack.base.config.js 와 묶어준다.
-### `webpack.prod.config.js`
+### webpack.prod.config.js
 배포모드일때만 적용되는 설정들을 여기서 설정.  
 `webpack-merge`를 통해 webpack.base.config.js 와 묶어준다.
 
@@ -199,4 +198,4 @@ css 의 assets 들을 최적화해주는 모듈
 모든 번들의 내용에 대해 파일의 크기를 시각화 해주는 모듈
 
 ## 참고문서
-[vuejs-templates DOC](https://vuejs-templates.github.io/webpack/)
+* [vuejs-templates DOC](https://vuejs-templates.github.io/webpack/)

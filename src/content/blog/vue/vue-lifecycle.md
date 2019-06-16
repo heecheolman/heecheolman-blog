@@ -1,10 +1,8 @@
 ---
-title: 'Vue 라이프사이클'
+title: 'Vue 라이프사이클 이해하기'
 date: 2018-06-30 16:57:23
 category: 'vue'
 ---
-
-# Vue.js 라이프사이클 이해하기
 
 Vue.js 의 라이프사이클은 크게 4가지로 나뉜다.
 
@@ -151,7 +149,7 @@ reactive subscription을 제거하고자 한다면 이 훅에 담으면 좋다.
 이 훅은 해체 된 후에 호출됨.  
 Vue 인스턴스의 모든 디렉티브가 바인딩 해제되고 모든 이벤트 리스너가 제거 및 모든 하위 vue 인스턴스도 삭제된다.
 ## 참고문서
-[생명 주기 (Life Cycle) - Vallista](https://github.com/Vallista/TIL/blob/master/vuejs/life-cycle.md)  
-[Vue.js 2.0 라이프사이클 이해하기 - Jeong Woo Ahn](https://medium.com/witinweb/vue-js-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-7780cdd97dd4)  
-[Understanding Vue.js Lifecycle Hooks - Joshua Bemenderfer ](https://alligator.io/vuejs/component-lifecycle/)  
-[Vue.js 공식문서 : 옵션/라이프사이클 훅](https://kr.vuejs.org/v2/api/index.html#%EC%98%B5%EC%85%98-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%ED%9B%85)
+* [생명 주기 (Life Cycle) - Vallista](https://github.com/Vallista/TIL/blob/master/vuejs/life-cycle.md)  
+* [Vue.js 2.0 라이프사이클 이해하기 - Jeong Woo Ahn](https://medium.com/witinweb/vue-js-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-7780cdd97dd4)  
+* [Understanding Vue.js Lifecycle Hooks - Joshua Bemenderfer ](https://alligator.io/vuejs/component-lifecycle/)  
+* [Vue.js 공식문서 : 옵션/라이프사이클 훅](https://kr.vuejs.org/v2/api/index.html#%EC%98%B5%EC%85%98-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%ED%9B%85)

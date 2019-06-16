@@ -3,11 +3,7 @@ title: 'GraphQL'
 date: 2019-4-29 23:28:11
 category: 'graphql'
 ---
-
-# GraphQL
-
-<img width="200px" src="https://graphql.org/img/logo.svg">
-
+    
 ## 들어서며
 
 웹을 처음에 구축할 때 가장 먼저 REST API 라는것을 사용해 API 를 구현을 했었습니다. REST API 는 정보의 자원을 표한하는데 집중했습니다.  

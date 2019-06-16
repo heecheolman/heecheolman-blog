@@ -1,10 +1,9 @@
 ---
-title: '타입스크립트02'
+title: '타입스크립트 Basic Types'
 date: 2018-12-28 15:18:22
 category: 'typescript'
 ---
 
-# Typescript - basic types
 타입스크립트의 기본타입들을 살펴봅니다.
 
 ### Boolean
