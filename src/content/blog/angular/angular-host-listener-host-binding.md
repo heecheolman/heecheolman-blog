@@ -1,5 +1,5 @@
 ---
-title: 'Angular `@HostListenr` 와 `@HostBinding`'
+title: 'Angular @HostListenr 와 @HostBinding'
 date: 2019-04-08 23:41:16
 category: 'angular'
 ---

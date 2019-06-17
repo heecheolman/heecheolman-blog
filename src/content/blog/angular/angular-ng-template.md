@@ -1,5 +1,5 @@
 ---
-title: 'Angular `<ng-template>` 과 동적 뷰'
+title: 'Angular <ng-template> 과 동적 뷰'
 date: 2019-02-13 23:58:55
 category: 'angular'
 ---
