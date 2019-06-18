@@ -39,11 +39,11 @@ aws 는 아마존 웹 서비스(Amazon Web Service) 의 줄임말이다. 아마�
 
 ## 알아볼 AWS 제품
 
-* [EC2](https://github.com/heecheolman/TIL/blob/master/aws/aws-ec2.md)
-* [S3](https://github.com/heecheolman/TIL/blob/master/aws/aws-s3.md)
-* [RDS](https://github.com/heecheolman/TIL/blob/master/aws/aws-rds.md)
-* [CloudFront](https://github.com/heecheolman/TIL/blob/master/aws/aws-cloudfront.md)
-* [Lambda](https://github.com/heecheolman/TIL/blob/master/aws/aws-lambda.md)
+* [EC2](https://heecheolman.heecheolman.now.sh/aws/aws-ec2)
+* [S3](https://heecheolman.heecheolman.now.sh/aws/aws-s3)
+* [RDS](https://heecheolman.heecheolman.now.sh/aws/aws-rds)
+* [CloudFront](https://heecheolman.heecheolman.now.sh/aws/aws-cloudfront)
+* [Lambda](https://heecheolman.heecheolman.now.sh/aws/aws-lambda/)
 
 ## 참고문서
 
