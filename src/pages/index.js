@@ -22,7 +22,7 @@ const IndexPage = ({ data }) => {
       }
       categorize[category].push(node);
     });
-  console.log(categorize);
+  // console.log(categorize);
 
   return (
     <div>
