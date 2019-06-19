@@ -10,19 +10,19 @@ import { CategoryBoardContainer } from '../components/category-board-container'
 const IndexPage = ({ data }) => {
   const { siteMetadata } = data.site;
   const posts = data.allMarkdownRemark.edges;
-  const categorize = [];
+  const categorize = {};
   // let categories = [];
 
   posts
-  .filter(({ node }) => !!node.frontmatter.category)
-  .map(({ node }) => {
-    const { category } = node.frontmatter;
-    if (!categorize.hasOwnProperty(category)) {
-      categorize[category] = [];
-    }
-    categorize[category].push(node);
-  });
-  // categories = [...Object.keys(categorize)];
+    .filter(({ node }) => !!node.frontmatter.category)
+    .map(({ node }) => {
+      const { category } = node.frontmatter;
+      if (!categorize.hasOwnProperty(category)) {
+        categorize[category] = [];
+      }
+      categorize[category].push(node);
+    });
+  console.log(categorize);
 
   return (
     <div>
