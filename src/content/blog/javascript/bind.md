@@ -30,7 +30,7 @@ category: 'javascript'
 `call()` 과 `apply()` 는 특정 객체의 메서드를 빌려쓴다는 개념이고  
 `bind()` 함수는 함수를 리턴한다. 이 함수는 앞서 말했듯이 미리 정의해둔 `this`를 가진 새로운 함수이다.
 
-#### `bind()`예제
+### bind()예제
 
 ```javascript
 function multiply(number) {
@@ -45,7 +45,7 @@ console.log(double(3));  // => 6
 console.log(double(10)); // => 20
 ```
 
-#### `call()`, `apply()` 예제
+### call(), apply() 예제
 
 ```javascript
 var num = 5;
@@ -66,7 +66,7 @@ console.log(double.apply(this));
 console.log(double.call(obj));
 console.log(double.apply(obj));
 ```
-### 생성자 함수를 `new` 를 붙이지 않고 호출할 경우
+### 생성자 함수를 new 를 붙이지 않고 호출할 경우
 
 생성자 함수를 `new` 를 붙이지 않고 호출할경우 `this`는 전역객체에 바인딩된다. 이런 현상을 막기위해 널리 사용되는 패턴이 있다.
 

@@ -20,9 +20,6 @@ export const Header = () => (
           <div className="header__title flex justify-between-sort">
             <Link to="/" className="header__title__text hee-labeled">🎒{data.site.siteMetadata.title}</Link>
           </div>
-          {/*<div className="header__github flex flex-center-sort">*/}
-            {/*<a href={data.site.siteMetadata.github}><Github className="header__github__icon" /></a>*/}
-          {/*</div>*/}
         </header>
       </HeadRoom>
     )}

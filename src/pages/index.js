@@ -11,8 +11,6 @@ const IndexPage = ({ data }) => {
   const { siteMetadata } = data.site;
   const posts = data.allMarkdownRemark.edges;
   const categorize = {};
-  // let categories = [];
-
   posts
     .filter(({ node }) => !!node.frontmatter.category)
     .map(({ node }) => {
@@ -22,11 +20,8 @@ const IndexPage = ({ data }) => {
       }
       categorize[category].push(node);
     });
-  // console.log(categorize);
-
   return (
     <div>
-      {/*@TODO 메타정보*/}
       <Header />
       <Layout>
         <ProfileCard profile={siteMetadata.profile} />
@@ -34,7 +29,7 @@ const IndexPage = ({ data }) => {
       </Layout>
     </div>
   )
-}
+};
 export default IndexPage;
 
 export const query = graphql`

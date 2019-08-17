@@ -10,7 +10,7 @@ RxJS 에서는 '구독' 하는 방식으로 데이터를 받아봅니다. 즉, �
 
 > Angular 에서 공식적으로 RxJS를 다루므로 Angular 컴포넌트로 진행합니다.
 
-## `async` 파이프를 이용한 구독과 구독해제
+## async 파이프를 이용한 구독과 구독해제
 
 ### 장점
 
@@ -50,7 +50,7 @@ export class MyComponent implements OnInit {
 
 
 
-## `subscribe` 메서드를 이용한 구독과 `unsubscribe` 구독해제
+## subscribe 메서드를 이용한 구독과 unsubscribe 구독해제
 
 보통 구독해제를 하려고한다면 `unsubscribe()` 메서드를 특정 시점에 호출하는 방법이 있습니다. 예를들어, 앵귤러의 라이프사이클중 컴포넌트가 파괴될 때인 `OnDestroy` 시점에 `unsubscribe()` 하는 것입니다.
 

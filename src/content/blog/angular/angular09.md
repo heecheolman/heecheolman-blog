@@ -67,7 +67,7 @@ export class CustomDirective {
 }
 ```
 
-### `@Input` 데이터 바인딩
+### @Input 데이터 바인딩
 컴포넌트에서 지정한 값을 `@Input` 을 통해 받아보는 방법입니다.
 ```ts
 export class CustomDirective {
@@ -127,7 +127,7 @@ export class MyNgIfDirective {
 ```
 예제를 통해 살펴보면 `condition` 값이 사용자 정의 구조 디렉티브의 `@Input set appMyNgIf` 에 들어와 해당 컴포넌트를 만들지 말지 결정합니다.
 
-### `ng-template` 디렉티브
+### ng-template 디렉티브
 `*ngIf` 는 다음과같이 변형된다 하였습니다.
 
 ```html
@@ -158,11 +158,11 @@ export declare class NgIf {
 ```
 `ngIf` 디렉티브는 의존성 주입(DI: Dependency Injection) 을 통해 주입받은 `TemplateRef` 와 `ViewContainerRef`의 인스턴스를 사용해 `ng-template` 디렉티브로 래핑된 요소를 렌더링하거나 제거합니다.
 
-## `TemplateRef`와 `ViewContainerRef`
+## TemplateRef와 ViewContainerRef
 **`TemplateRef`** : `ng-template` 디렉티브로 래핑된 요소를 가리키는 객체를 생성  
 **`ViewContainerRef`** : 하나 이상의 뷰를 포함시킬 수 있는 컨테이너로 `createEmbeddedView` 를 통해 컴포넌트를 인스턴스화하여 만든 호스트 뷰, 그리고 `createdEmbeddedView` 메서드를 통해 `ng-template`을 인스턴스화하여 포함한 임베디드 뷰.
 
-### `ng-container` 디렉티브
+### ng-container 디렉티브
 구조 디렉티브는 `<ng-template></ng-template>` 으로 바뀌어서 실행되는데 기본적으로 1개의 구조 디렉티브만 사용할 수 있습니다.  
 2개이상의 구조 디렉티브를 사용하고싶다면 `<ng-container></ng-container>`를 사용합니다.
 

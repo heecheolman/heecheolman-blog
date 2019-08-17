@@ -1,12 +1,18 @@
 module.exports = {
   siteMetadata: {
     title: `heecheolman`,
-    description: `개발 및 일상관련해 로그를 남기고 싶습니다.`,
+    description: '개발 및 일상관련해 로그를 남기고 싶습니다.',
+    utterances: 'heecheolman/heecheolman-blog',
     profile: {
       author: `heecheolman`,
-      pr: `프론트엔드 개발자, 프론트엔드 개발자, 프론트엔드 개발자, 프론트엔드 개발자, 프론트엔드 개발자, 프론트엔드 개발자, `,
+      pr: '계속해서 배움을 이어 나가는것을 좋아합니다. 공부한 것, 경험한 것들을 글로 남겨 다른 사람들에게도 도움이 되었으면 좋겠습니다. 🙏',
       githubLink: `https://github.com/heecheolman`,
-    }
+    },
+    seo: {
+      title: 'heecheolman의 백팩',
+      description: '개발 및 일상관련해 로그를 남기고 싶습니다.',
+      author: 'HeeCheolKim',
+    },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

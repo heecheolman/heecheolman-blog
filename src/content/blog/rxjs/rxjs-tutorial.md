@@ -58,7 +58,7 @@ of<number, number, number, number>(1, 2, 3, 4)
 
 완전 자세한 내용은 해당 도큐멘트를 보면 되겠지만 지금은 개념만 짚고 넘어가려 합니다.
 
-### `Observable<T>`
+### Observable<T>
 
 ```ts
 export class Observable<T> implements Subscribable<T> {
@@ -66,7 +66,7 @@ export class Observable<T> implements Subscribable<T> {
 }
 ```
 
-### `Subscribable<T>`
+### Subscribable<T>
 
 ```ts
 export interface Subscribable<T> {
@@ -78,7 +78,7 @@ export interface Subscribable<T> {
 }
 ```
 
-### `Unsubscribable`
+### Unsubscribable
 
 ```ts
 export interface Unsubscribable {

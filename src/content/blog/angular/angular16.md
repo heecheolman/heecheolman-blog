@@ -31,7 +31,7 @@ platformBrowserDynamic().bootstrapModule(AppModule) // 가동
   .catch(err => console.error(err));
 ```
 
-## [`@NgModule` 데코레이터](https://angular.io/api/core/NgModule)
+## [@NgModule 데코레이터](https://angular.io/api/core/NgModule)
 모듈 클래스는 `@NgModule` 데코레이터로 장식된 클래스인데 모듈의 설정 정보가 담겨있는 메타데이터 객체를 전달받아서 모듈을 생성합니다.
 
 ```ts

@@ -28,7 +28,7 @@ export class MyComponent implements OnInit {
 ```
 이 이후에 소개되는 라이프사이클 훅들이 어느시점에 호출되는지 알아보겠습니다.
 
-### `ngOnChanges`
+### ngOnChanges
 부모 컴포넌트에서 자식 컴포넌트의 입력 프로퍼티(`@Input`)로 바인딩한 값이 초기화 또는 변경되었을 때 실행됩니다. 입력 프로퍼티가 존재하는 경우 최소 1회 호출됩니다. 그리고 입력 프로퍼티가 변경될 때마다 호출되는데 변경은 **참조변경** 을 말합니다.
 
 ```ts
@@ -47,7 +47,7 @@ class MyComponent implements OnChanges {
 
 `previousValue` 에는 이전값이 들어있고 `currentValue` 에는 현재의 값이 들어있습니다.
 
-### `ngOnInit`
+### ngOnInit
 입력 프로퍼티를 포함한 모든 프로퍼티의 초기화가 완료된 시점에 한번만 호출됩니다. 앵귤러에서는 `constructor` 가 아닌 `ngOnInit` 에서 프로퍼티를 초기화하는것이 좋습니다. `constructor` 에서는 앵귤러가 관리하는 입력 프로퍼티가 초기화되지않아 `undefined` 상태를 갖기 때문입니다. 반면에 `ngOnInit` 은 입력 프로퍼티에 대한 참조가 보장됩니다.
 
 ```ts
@@ -64,10 +64,10 @@ class MyComponent implements OnInit {
   }
 }
 ```
-### `ngDoCheck`
+### ngDoCheck
 컴포넌트 또는 디렉티브의 모든 상태 변화가 발생할 때마다 호출됩니다. DOM 이벤트, Ajax 통신 등과 같은 비동기 처리가 수행될 때, 변화 감지 로직(`ngDoCheck()`)을 실행합니다. 하지만 모든 상태 변화가 발생할 때마다 호출되므로 성능문제를 야기할 수 있습니다.
 
-#### `ngOnChanges` vs `ngDoCheck`
+#### ngOnChanges vs ngDoCheck
 공통점이라면 둘다 상태변화에 감지한다는점입니다.
 ```ts
 class MyChildComponent {
@@ -82,19 +82,19 @@ class MyChildComponent {
 하지만 반대로 prop2의 foo 키의 값을 바꾸게된다면(예를들면 `prop2.foo = 5`) `ngOnChanges` 는 반응하지 않습니다. 그 이유는 프로퍼티 내부의 foo 에 대한 값은 변경되었지만 foo 라는 object 에 대한 참조값은 그대로 유지되기 때문입니다.
 
 
-### `ngAfterContentInit`
+### ngAfterContentInit
 컴포넌트의 뷰가 초기화되는 시점헤 호출되며, `ng-content` 디렉티브를 사용해 외부 콘텐츠를 컴포넌트의 뷰에 콘텐츠 프로젝션한 이후에 호출됩니다.
 
-### `ngAfterContentChecked`
+### ngAfterContentChecked
 부모 컴포넌트가 전달한 부모 컴포넌트의 템플릿 조각을 체크한 후 호출됩니다. 뷰를 검사한 후에 실행됩니다.
 
-### `ngAfterViewInit`
+### ngAfterViewInit
 컴포넌트의 뷰와 자식 컴포넌트의 뷰를 초기화한 이후 호출됩니다. 뷰 안의 모든 디렉티브를 초기화한 후에 실행됩니다.
 
-### `ngAfterViewChecked`
+### ngAfterViewChecked
 컴포넌트의 뷰와 자식 컴포넌트의 뷰를 체크한 이후 호출됩니다.
 
-### `ngOnDestroy`
+### ngOnDestroy
 컴포넌트와 디렉티브가 소멸하기 이전 호출됩니다. 여기서 메모리누수를 처리합니다. 예를들어 Rxjs 의 `unsubscribe`가 있습니다.
 
 ## 디렉티브 라이프사이클

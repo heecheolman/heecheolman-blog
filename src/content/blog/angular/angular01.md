@@ -2,6 +2,8 @@
 title: 'Angular 소개'
 date: 2019-01-08 00:48:42
 category: 'angular'
+description:  '앵귤러는 SPA 개발을 위한 구글의 오픈소스 자바스크립트 프레임워크입니다. 앵귤러의 철학중 하나는 "One framework. Mobile & Desktop" 으로 하나의 프레임워크로 모바일과 데스크탑을 개발할 수 있다는 것입니다.'
+author: 'HeeCheolKim'
 ---
 
 앵귤러는 SPA 개발을 위한 구글의 오픈소스 자바스크립트 프레임워크입니다. 앵귤러의 철학중 하나는 "One framework. Mobile & Desktop" 으로 하나의 프레임워크로 모바일과 데스크탑을 개발할 수 있다는 것입니다.

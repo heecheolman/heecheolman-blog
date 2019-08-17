@@ -4,8 +4,6 @@ date: 2019-05-04 17:29:31
 category: 'rxjs'
 ---
 
-![](http://reactivex.io/assets/Rx_Logo_S.png)
-
 [Rx](http://reactivex.io/intro.html) 는 비동기 데이터 스트림을 처리하는 API 를 제공하는 라이브러리입니다. 모던 웹에서 비동기 통신은 필수적입니다. 때문에 자바스크립트 언어의 특징을 이용해 콜백을 사용했습니다. 콜백지옥을 해결하고자 프로미스가 나오고 더 나아가서 프로미스 기반의 `async/await` 도 나왔습니다.
 
 > 만약 동기방식으로 통신을 한다면 기다림의 연속

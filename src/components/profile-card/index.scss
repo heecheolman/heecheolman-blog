@@ -1,11 +1,19 @@
+@import './../../styles/var';
+
 .profile-card {
   margin: 30px auto;
   padding: 10px;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 12px;
+  transition: 0.1s ease-out box-shadow;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0 1px 12px;
+  }
 
   .profile-card__avatar {
     margin: 10px 0;
-    font-size: 70px;
+    font-size: 50px;
   }
 
   .profile-card__info {
@@ -22,7 +30,17 @@
     .profile-card__info__pr {
       max-width: 300px;
       padding: 10px 0;
-      font-size: 13px;
+      font-size: 12px;
+      color: #6d6d6d;
+    }
+    .profile-card__info__link {
+      color: $content-color;
+      text-decoration: none;
+      font-size: 12px;
+
+      &:visited {
+        color: $content-color;
+      }
     }
   }
 }

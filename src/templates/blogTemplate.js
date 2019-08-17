@@ -3,13 +3,30 @@ import { graphql } from "gatsby"
 
 import './index.scss'
 import { Header } from './../components/header';
+import { Utterences } from '../components/utterances';
 import { Layout } from './../layout';
+import { SEO } from './../components/seo';
 
 export default function Template({ data }) {
-  const { markdownRemark } = data; // data.markdownRemark holds our post data
-  const { frontmatter, html, tableOfContents } = markdownRemark;
+  const {
+    markdownRemark,
+    site: {
+      siteMetadata: {
+        utterances
+      }
+    }
+  } = data;
+  const {
+    frontmatter,
+    html,
+    tableOfContents
+  } = markdownRemark;
   return (
     <>
+      <SEO title={frontmatter.title}
+           description={frontmatter.description}
+           author={frontmatter.author}
+      />
       <Header />
       <Layout>
         <div className="markdown-body">
@@ -25,6 +42,7 @@ export default function Template({ data }) {
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>
+        <Utterences repo={utterances} />
       </Layout>
     </>
   )
@@ -35,6 +53,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        utterances 
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -45,7 +64,9 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        description
+        author
       }
     }
   }
-`
+`;
