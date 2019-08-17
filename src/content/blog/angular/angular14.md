@@ -2,6 +2,8 @@
 title: 'Angular HTTP 통신'
 date: 2019-01-14 15:36:23
 category: 'angular'
+description:  '대부분의 웹 애플리케이션에서 HTTP 통신은 필수입니다. HttpClient 클래스를 통해 HTTP 요청 API와 인터셉터를 제공합니다. 이 섹션에서는 http 통신에 대해서 다뤄보겠습니다.'
+author: 'HeeCheolKim'
 ---
 
 대부분의 웹 애플리케이션에서 HTTP 통신은 필수입니다. HttpClient 클래스를 통해 HTTP 요청 API와 인터셉터를 제공합니다. 이 섹션에서는 http 통신에 대해서 다뤄보겠습니다.

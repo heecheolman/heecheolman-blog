@@ -2,6 +2,8 @@
 title: 'Angular <ng-template> 과 동적 뷰'
 date: 2019-02-13 23:58:55
 category: 'angular'
+description:  '앵귤러에서 template 태그를 어떻게 사용하는지, 또 동적 태그를 어떻게 생성하는지 알아보겠습니다.'
+author: 'HeeCheolKim'
 ---
 
 ## [template](https://developer.mozilla.org/ko/docs/Web/HTML/Element/template)

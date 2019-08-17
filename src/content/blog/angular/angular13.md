@@ -2,6 +2,8 @@
 title: 'Angular 리액티브 프로그래밍과 RxJS'
 date: 2019-01-13 19:14:33
 category: 'angular'
+description:  '앵귤러 CLI 를 사용해 생성한 프로젝트는 RxJS 가 포함되어있고 RxJS 는 리액티브 프로그래밍 패러다임입니다. 리액티브 프로그래밍에 관해 그리고 RxJS 를 살펴보겠습니다.'
+author: 'HeeCheolKim'
 ---
 
 앵귤러 CLI 를 사용해 생성한 프로젝트는 RxJS 가 포함되어있고 RxJS 는 리액티브 프로그래밍 패러다임입니다. 리액티브 프로그래밍에 관해 그리고 RxJS 를 살펴보겠습니다.

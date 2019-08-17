@@ -2,6 +2,8 @@
 title: '구조적 디렉티브 활용'
 date: 2019-02-14 00:01:36
 category: 'angular'
+description:  '구조적 디렉티브에 대한 활용을 알아보고 내부적으로 작동하는 방식을 정리합니다.'
+author: 'HeeCheolKim'
 ---
 
 구조적 디렉티브의 활용이지만 사실 `*ngFor` 를 연구합니다.

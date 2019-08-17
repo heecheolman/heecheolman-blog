@@ -2,6 +2,8 @@
 title: 'Angular 보조 라우터'
 date: 2019-02-18 21:22:26
 category: 'angular'
+description:  '앵귤러의 보조라우터가 갖는 역할과 쓰임새를 알아보겠습니다.'
+author: 'HeeCheolKim'
 ---
 
 

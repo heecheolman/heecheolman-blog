@@ -2,6 +2,8 @@
 title: 'Angular 변경감지 전략'
 date: 2019-02-12 21:10:32
 category: 'angular'
+description:  'SPA 를 구성하면 자연스럽게 컴포넌트가 트리구조로 이루어지게 됩니다. 앵귤러는 이 트리구조에 존재하는 개별 컴포넌트의 변경사항을 어떻게 감지하는지 알아보겠습니다.'
+author: 'HeeCheolKim'
 ---
 
 ## ChangeDetectionStrategy

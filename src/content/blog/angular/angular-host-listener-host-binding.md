@@ -2,6 +2,8 @@
 title: 'Angular @HostListenr 와 @HostBinding'
 date: 2019-04-08 23:41:16
 category: 'angular'
+description:  '@HostListenr 와 @HostBinding 은 앵귤러의 빌트인 디렉티브 이외에 커스텀 디렉티브를 만들 때 사용되는 데코레이터인데, 이 데코레이터들에 대해 알아보겠습니다.'
+author: 'HeeCheolKim'
 ---
 
 `@HostListener` 와 `@HostBinding`은 앵귤러에서 빌트인 디렉티브 이외에 커스텀 디렉티브를 만들 때 사용되는 데코레이터다. 이름을 보고 추측하자면 `@HostListener` 는 이벤트를 수신하는 느낌이고, `@HostBinding` 은 어떠한 '것'을 바인딩해주는 느낌이다.

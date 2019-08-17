@@ -2,6 +2,8 @@
 title: 'Angular 프로젝트 시작하기'
 date: 2019-01-08 12:30:23
 category: 'angular'
+description:  '앵귤러 프로젝트를 시작하기 앞서 `Angular CLI` 를 설치하도록 합니다. CLI 는 Command Line Interface 의 약자로 명령어를 통해 앵귤러 프로젝트를 생성, 실행, 빌드할 수 있습니다.'
+author: 'HeeCheolKim'
 ---
 
 앵귤러 프로젝트를 시작하기 앞서 `Angular CLI` 를 설치하도록 합니다. CLI 는 Command Line Interface 의 약자로 명령어를 통해 앵귤러 프로젝트를 생성, 실행, 빌드할 수 있습니다.

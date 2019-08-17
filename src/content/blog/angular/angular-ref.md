@@ -2,6 +2,8 @@
 title: 'Angular ElementRef, ViewRef, ComponentRef, ViewContainerRef'
 date: 2019-02-12 21:09:46
 category: 'angular'
+description:  '앵귤러의 Angular ElementRef, ViewRef, ComponentRef, ViewContainerRef 에 대한 차이점을 알아보겠습니다.'
+author: 'HeeCheolKim'
 ---
 
 ## ElementRef

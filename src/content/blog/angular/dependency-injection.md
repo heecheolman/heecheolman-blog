@@ -2,6 +2,8 @@
 title: 'Angular 의존성 주입(DI)'
 date: 2019-03-05 10:54:21
 category: 'angular'
+description:  '앵귤러의 컴포넌트가 실행되기 위해서 필요한 의존성이 있는데 이 의존성 주입에는 크게 4가지 방법이 있어 정리해둡니다.'
+author: 'HeeCheolKim'
 ---
 ## 1. use Class
 
@@ -24,7 +26,7 @@ providers: [
 ]
 ```
 
-**'useClass' 로 생성한 인스턴스를 'prov{ider' 이름의 토큰으로 인젝터의 컨테이너에 등록하고, 검색할 것이라는 뜻입니다.**
+**'useClass' 로 생성한 인스턴스를 'provider' 이름의 토큰으로 인젝터의 컨테이너에 등록하고, 검색할 것이라는 뜻입니다.**
 
 
 ## 2. use Value
