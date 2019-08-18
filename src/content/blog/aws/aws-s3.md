@@ -2,7 +2,7 @@
 title: 'AWS S3'
 date: 2018-04-13 15:18:00
 category: 'aws'
-description:  'Simple Storage Service 의 약자로 파일 저장 서비스이다. S3 에서는 'bucket(버킷)' 이라는 용어가 나오는데 일종의 저장공간을 의미한다.'
+description:  'Simple Storage Service 의 약자로 파일 저장 서비스이다. S3 에서는 bucket(버킷) 이라는 용어가 나오는데 일종의 저장공간을 의미한다.'
 author: 'HeeCheolKim'
 ---
 
