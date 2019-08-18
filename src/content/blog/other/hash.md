@@ -2,6 +2,8 @@
 title: 'SPA & Routing & Hash'
 date: 2018-04-03 17:39:31
 category: 'other'
+description:  'SPA 의 라우팅방식을 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 ## 1. SPA (Single Page Application) 란?

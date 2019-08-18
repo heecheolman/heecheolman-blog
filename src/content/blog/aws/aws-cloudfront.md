@@ -2,6 +2,8 @@
 title: 'AWS CloudFront'
 date: 2018-04-13 15:41:00
 category: 'aws'
+description:  '아마존의 클라우드프론트는 AWS 에서 제공하는 CDN(Content Delivery Network) 서비스이다. 먼저 CDN 을 짚고 넘어가자.'
+author: 'HeeCheolKim'
 ---
 
 아마존의 클라우드프론트는 AWS 에서 제공하는 CDN(Content Delivery Network) 서비스이다. 먼저 CDN 을 짚고 넘어가자.

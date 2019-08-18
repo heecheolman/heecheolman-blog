@@ -2,12 +2,14 @@
 title: 'Blocking I/O 와 NonBlocking I/O, Synchronous 와 Asynchronous'
 date: 2018-07-02 14:52:25
 category: 'other'
+description:  '동기, 비동기, 블록킹, 논블록킹 방식의 차이점을 살펴봅니다.'
+author: 'HeeCheolKim'
 ---
 
 동기(Synchronous)와 비동기(Asynchronous) 그리고 블로킹과 논블로킹의 차이를 알아본다.  
 많이 보게되는 단어들인데 이 용어들에 대해 정리해서 말을 할 수 없었기에 공부를 하기로 했다.
-  
-*아래의 참고문서를 보며 정리를 했다.* 
+
+*아래의 참고문서를 보며 정리를 했다.*
 
 ## Blocking I/O / NonBlocking I/O
 

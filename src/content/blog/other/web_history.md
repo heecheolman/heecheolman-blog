@@ -2,6 +2,8 @@
 title: '웹브라우저의 역사와 웹 프레임워크'
 date: 2018-06-30 13:46:38
 category: 'other'
+description:  '오늘날의 웹 브라우저가 탄생하기까지의 역사와 웹프레임워크의 역사를 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 

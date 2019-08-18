@@ -2,6 +2,8 @@
 title: 'GoogleAppScript'
 date: 2019-03-12 22:50:19
 category: 'other'
+description:  '구글의 AppScript 를 사용해본 사용기입니다. 사내에서 비개발자와 개발자사이를 엮어주는 좋은 툴이라고 생각되었습니다.'
+author: 'HeeCheolKim'
 ---
 
 ## GoogleAppScript

@@ -2,6 +2,8 @@
 title: 'Git 자주쓰는 명령어 모음'
 date: 2019-06-04 23:39:39
 category: 'git'
+description:  'Git의 커맨드라인으로 자주쓰는 명령어 모음집입니다.'
+author: 'HeeCheolKim'
 ---
 
 `[]`로 감싸져있는 부분은 그대로 입력하는 부분입니다.

@@ -2,6 +2,8 @@
 title: '가상클래스와 가상요소 (Pseudo Class와 Pseudo Element)'
 date: 2019-05-31 22:38:19
 category: 'css'
+description:  'CSS 에서 자주 쓰이는 가상클래스와 가상 요소의 사용법에 대해 정리했습니다.'
+author: 'HeeCheolKim'
 ---
 
 css로 html 의 스타일을 지정해주는 방법에는 몇가지 있는데 예전부터 그렇구나만 하고 넘겼던 '가상클래스' 와 '가상요소'에 대해 알아보려한다.

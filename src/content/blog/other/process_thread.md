@@ -2,6 +2,8 @@
 title: 'Process 와 Thread 의 차이'
 date: 2018-07-02 14:52:21
 category: 'other'
+description:  '컴퓨터공학 지식인 Process 와 Thread 의 차이점에 대해 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 > Process 와 Thread 의 차이를 설명해주세요

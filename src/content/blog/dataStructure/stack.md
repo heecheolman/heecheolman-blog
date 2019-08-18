@@ -2,6 +2,8 @@
 title: '스택 (Stack)'
 date: 2018-06-08 01:48:22
 category: 'dataStructure'
+description:  '자료구조의 일부로 스택(Stack)에 대해 살펴봅니다.'
+author: 'HeeCheolKim'
 ---
 
 **스택(stack)** 이란 쌓아 올린다는 뜻이다.  

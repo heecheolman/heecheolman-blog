@@ -2,6 +2,8 @@
 title: '자바스크립트 프로토타입'
 date: 2018-02-13 01:27:31
 category: 'javascript'
+description:  'Javascript 는 프로타타입 기반 언어인데, 프로토타입 기반 언어의 특징에 대해 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 ## 워밍업
@@ -241,7 +243,7 @@ obj.__proto__.greet = function(){ console.log(`Bye ${this.a}`); };
 
 
 ## 참고문서
-  
+
 * [https://medium.com/@bluesh55/javascript-prototype-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-f8e67c286b67](https://medium.com/@bluesh55/javascript-prototype-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-f8e67c286b67)  
 * [http://rhio.tistory.com/236](http://rhio.tistory.com/236)  
 * [http://insanehong.kr/post/javascript-prototype/](http://insanehong.kr/post/javascript-prototype/)  

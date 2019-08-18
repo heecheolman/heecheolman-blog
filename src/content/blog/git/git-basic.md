@@ -2,6 +2,8 @@
 title: 'Git 기초 첫번째'
 date: 2018-11-08 00:16:19
 category: 'git'
+description:  'Git 의 파일상태의 라이프사이클과 기본사용법에 대해 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 ## Git 의 특징

@@ -2,6 +2,8 @@
 title: '자바스크립트 상속'
 date: 2018-02-14 01:27:31
 category: 'javascript'
+description:  'Javascript 에도 클래스 상속이 존재합니다. 상속을 어떻게하는지, 내부 구현이 어떻게 되어있는지 살펴봅니다.'
+author: 'HeeCheolKim'
 ---
 
 **상속 (Inheritance)**
@@ -119,7 +121,7 @@ Triangle.prototype = new TwoDShape();
 ```
 
 상속을 구현하는 코드를 보자.
-  
+
 `TwoDShapePrototypeObject` 는 `new Shape()` 된 객체를 참조한다.
 `TrianglePrototypeObject` 는 `new TwoDShape()` 된 객체를 참조한다
 

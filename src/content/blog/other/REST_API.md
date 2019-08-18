@@ -2,6 +2,8 @@
 title: 'REST API 알아보기'
 date: 2018-07-17 20:00:55
 category: 'other'
+description:  'API 설계기법인 REST API 에 대해 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 이 글에서는 REST API 가 무엇인지 알아보겠습니다.

@@ -2,6 +2,8 @@
 title: '자바스크립트 이터레이터, 이터러블, 제너레이터'
 date: 2018-02-15 03:03:28
 category: 'javascript'
+description:  'Javascript 에서 순회가능한 요소들은 객체, 배열 등이 있는데 이들을 순회하는 방법을 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 ## for

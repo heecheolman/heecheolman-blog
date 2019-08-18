@@ -2,6 +2,8 @@
 title: '실전 SPA 상태관리 톺아보기 - 김동우님'
 date: 2018-11-11 17:01:00
 category: 'conference'
+description:  'DevFest Seoul 2018 의 실전 SPA 상태관리 톺아보기 세션을 보고 정리했습니다. SPA 에서 사용되는 상태관리 라이브러리들을 살펴보는 세션입니다.'
+author: 'HeeCheolKim'
 ---
 
 ## SPA 란?

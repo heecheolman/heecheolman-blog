@@ -2,6 +2,8 @@
 title: 'Vuetiful Korea 4회 를 다녀오며'
 date: 2018-04-17 16:00:00
 category: 'conference'
+description:  'Vue 프레임워크 4회 밋업을 다녀오고 느낀점을 적었습니다. 대학생 시절 처음 접한 SPA 가 신기해 많이 알아듣지는 못했지만 동기부여는 확실히 됐습니다.'
+author: 'HeeCheolKim'
 ---
 
 ![이미지1](http://cfile30.uf.tistory.com/image/99C47B3B5ADD42EA13EF60)
@@ -42,7 +44,7 @@ Electron 이란 웹 기술로 데스크탑 앱을 만들 수 있는 프레임워
  세번째 발표인 `GraphQL` 이다.  
  이건 당최 뭔 소리인지 나같은 뉴비는 알아듣지 못하였다.  
  발표자가 `GraphQL`을 사용한 후에 다음과 같은 주관적인 리뷰가 있었다.
- 
+
 - 실제로 구현하는건 훨씬 복잡한 케이스가 다수
 - 에러관리 실패한 요청에 대한 재시도(pub/sub으로 해결가능함)
 - 하지만 어느정도 잡혀있는 규칙에 대해 매우 긍정적

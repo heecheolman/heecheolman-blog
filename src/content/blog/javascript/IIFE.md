@@ -2,6 +2,8 @@
 title: '자바스크립트 IIFE, 소괄호'
 date: 2018-02-11 02:27:34
 category: 'javascript'
+description:  'Javascript 의 즉시실행함수 (IIFE) 가 무엇인지 알아보고, 소괄호의 의미에대해 생각해봅니다.'
+author: 'HeeCheolKim'
 ---
 
 소괄호 () 가 의미하는 바가 무엇인지 알아보고, 즉시실행함수(IIFE)가 무엇인지 알아보도록한다.

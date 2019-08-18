@@ -2,6 +2,8 @@
 title: 'Git 에 대하여'
 date: 2018-05-01 22:06:19
 category: 'git'
+description:  'Git 은 버전관리 툴중 하나로 소스코드의 시간여행을 가능하게 해줍니다. Git의 역사를 알아보고 왜 사용하는지에 대해 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 Git 사용법을 알아야 한다. git은 필수다. 라는 말을 수도없이 들어왔고  

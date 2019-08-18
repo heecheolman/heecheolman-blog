@@ -2,6 +2,8 @@
 title: '자바스크립트 BOM, DOM'
 date: 2018-03-09 14:39:51
 category: 'javascript'
+description:  'DOM 과 BOM 이 무엇인지 간단히 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 

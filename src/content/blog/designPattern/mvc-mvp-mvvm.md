@@ -2,6 +2,8 @@
 title: 'MVC, MVP, MVVM'
 date: 2018-06-30 13:59:12
 category: 'designPattern'
+description:  '많은 디자인 패턴중에 MVC, MVP, MVVM 에 대해 알아보며 각 차이점도 짚어봅니다.'
+author: 'HeeCheolKim'
 ---
 
 프로그램을 잘 섞어서 처리를 해도 잘 동작한다. 하지만 분리하지 않고 프로그램을 짠다면 규모가 커질 시  

@@ -2,6 +2,8 @@
 title: 'AWS RDS'
 date: 2018-04-13 15:58:00
 category: 'aws'
+description:  'AWS 의 RDS 서비스에 대해 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 # Amazon RDS

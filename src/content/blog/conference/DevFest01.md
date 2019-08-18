@@ -2,6 +2,8 @@
 title: 'Chrome Devtool를 활용한 성능측정과 개선 - 한재엽님'
 date: 2018-11-11 17:00:00
 category: 'conference'
+description:  'DevFest Seoul 2018 의 Chrome Devtool를 활용한 성능측정과 개선 세션을 보고 정리했습니다. Chrome 개발자 도구를 활용해 성능을 측정하는 방법을 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 ## 성능이란 UX다
@@ -24,7 +26,7 @@ category: 'conference'
 * **로드** : 콘텐츠를 1000ms 이내에 전달
 
 위와 같은 조건을 만족해야하지만 아쉬운점이 있다.
-  
+
 #### 아쉬운점
 
 * 귀찮다.

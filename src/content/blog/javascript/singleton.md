@@ -2,6 +2,8 @@
 title: '자바스크립트 싱글톤 패턴'
 date: 2018-06-08 01:27:31
 category: 'javascript'
+description:  'Javascript 의 싱글톤패턴은 어떻게 구현하는지 각 ECMA 버전별로 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 ## 싱글톤패턴(singleton pattern) 이란?

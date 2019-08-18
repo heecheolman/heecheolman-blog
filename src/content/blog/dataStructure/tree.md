@@ -2,6 +2,8 @@
 title: '트리 (Tree)'
 date: 2018-06-17 20:49:27
 category: 'dataStructure'
+description:  '자료구조의 일부로 트리(Tree)에 대해 살펴봅니다.'
+author: 'HeeCheolKim'
 ---
 
 

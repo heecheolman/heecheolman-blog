@@ -2,6 +2,8 @@
 title: '모던 브라우저는 어떻게 동작하는가 ? - 방진호님'
 date: 2018-11-11 17:02:00
 category: 'conference'
+description:  'DevFest Seoul 2018 의 모던 브라우저는 어떻게 동작하는가? 에 대한 세션을 보고 정리했습니다. 오늘날 크롬이나 파이어폭스, 사파리와 같은 브라우저가 어떻게 렌더링 되는지 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 ## Chromium 이란?

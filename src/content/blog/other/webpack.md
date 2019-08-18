@@ -2,6 +2,8 @@
 title: 'Webpack'
 date: 2018-04-03 17:39:31
 category: 'other'
+description:  '모듈 번들러인 Webpack의 핵심컨셉에 대해 정리해봅니다.'
+author: 'HeeCheolKim'
 ---
 
 [Webpack](https://webpack.js.org/concepts/) 은 `Module Bundler` 이다.  

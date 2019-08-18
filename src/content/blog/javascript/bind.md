@@ -2,6 +2,8 @@
 title: 'bind, call, apply'
 date: 2018-03-24 14:35:11
 category: 'javascript'
+description:  'Javascript 의 내장함수인 bind, call, apply 를 알아보고 이의 차이점과 쓰임새를 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 ## bind()

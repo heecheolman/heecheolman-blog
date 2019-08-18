@@ -2,6 +2,8 @@
 title: '큐 (Queue)'
 date: 2018-06-17 16:44:42
 category: 'dataStructure'
+description:  '자료구조의 일부로 큐(Queue)에 대해 살펴봅니다.'
+author: 'HeeCheolKim'
 ---
 
 **큐(Queue)** 란 줄을 서서 기다리는 뜻이다.

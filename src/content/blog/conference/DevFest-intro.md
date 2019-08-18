@@ -2,6 +2,8 @@
 title: 'DevFest Seoul 2018 을 다녀오며'
 date: 2018-11-11 16:00:00
 category: 'conference'
+description:  'DevFest Seoul 2018 을 다녀오며 느낀점 및 요약을 정리했습니다.'
+author: 'HeeCheolKim'
 ---
 
 ![이미지](https://t1.daumcdn.net/cfile/tistory/99B5C24D5BE7E4DD3B)

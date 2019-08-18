@@ -2,6 +2,8 @@
 title: '자바스크립트 컬렉션'
 date: 2018-02-16 03:03:28
 category: 'javascript'
+description:  'Javascript 에서 컬렉션을 사용하는 방법에 대해 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 일반적인 `Object` 도 `key` 와 `value` 의 쌍을 계속 추가할 수 있는 일종의 컬렉션이다. 하지만 몇가지 문제들이 있다. 기본적으로 `Object` 는

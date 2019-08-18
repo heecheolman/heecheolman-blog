@@ -2,6 +2,8 @@
 title: '오브젝트 - 코드로 이해하는 객체지향 설계'
 date: 2019-07-16 23:35:31
 category: 'book'
+description:  '오브젝트 - 코드로 이해하는 객체지향 설계 라는 책을 읽고 요약 및 느낀점을 적습니다.'
+author: 'HeeCheolKim'
 ---
 
 ## 책 표지

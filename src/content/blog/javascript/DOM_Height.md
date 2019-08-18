@@ -2,6 +2,8 @@
 title: 'DOM Height'
 date: 2018-05-25 14:02:31
 category: 'javascript'
+description:  'DOM 에서 높이를 측정하는 방법이 있는데 헷갈릴까봐 정리해두었습니다.'
+author: 'HeeCheolKim'
 ---
 
 ## [DOM Element](https://www.w3schools.com/jsref/dom_obj_all.asp)

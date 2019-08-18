@@ -2,6 +2,8 @@
 title: '변이와 변형 (transition and transform)'
 date: 2019-04-02 23:09:49
 category: 'css'
+description:  'CSS의 애니메이션을 활용하면 웹사이트가 살아움직이는 것 같은 UX를 사용자에게 제공할 수 있습니다. CSS의 애니메이션에 대해 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 CSS 에서 **transition** 과 **transform** 을 잘 사용하면 동적인 웹을 만들 수 있고 사용자의 UX 도 만족시켜줄 수 있는 좋은 친구이다. 자주 쓰고 있지만 헷갈릴 수 있어 이 참에 정리 해보려 한다.

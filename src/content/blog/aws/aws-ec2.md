@@ -2,6 +2,8 @@
 title: 'AWS EC2'
 date: 2018-04-13 14:43:00
 category: 'aws'
+description:  'Amazon Elastic Compute Cloud 의 약자이다. 아마존 웹서비스에서 가장 먼저 생성되었으며 주요 서비스 중 하나다. 더 간단히, 독립된 컴퓨터 한 대를 통채로 주는 서비스이다. EC2에 대해 간단히 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 Amazon Elastic Compute Cloud 의 약자이다. 아마존 웹서비스에서 가장 먼저 생성되었으며 주요 서비스 중 하나다. 더 간단히, 독립된 컴퓨터 한 대를 통채로 주는 서비스이다.

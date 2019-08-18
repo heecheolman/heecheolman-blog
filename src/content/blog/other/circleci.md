@@ -2,6 +2,8 @@
 title: 'Circle CI/CD 살펴보기'
 date: 2018-05-01 22:06:19
 category: 'other'
+description:  '빌드 배포 자동화툴인 Circle CI/CD 에 대해 간단히 알아봅니다.'
+author: 'HeeCheolKim'
 ---
 
 ## CI/CD 살펴보기
