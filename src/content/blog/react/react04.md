@@ -1,5 +1,5 @@
 ---
-title: '리액트 - State 와 Props'
+title: 'React - State 와 Props'
 date: 2019-08-18 16:36:15
 category: 'react'
 description: '리액트의 State 와 Props 를 컴포넌트가 어떻게 다루는지 그리고 사용법에 대해 설명합니다.'

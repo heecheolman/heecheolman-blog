@@ -1,5 +1,5 @@
 ---
-title: 'React 소개'
+title: 'React - 소개'
 date: 2019-07-01 23:25:11
 category: 'react'
 ---

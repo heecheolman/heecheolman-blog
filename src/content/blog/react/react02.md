@@ -1,5 +1,5 @@
 ---
-title: '리액트-엘리먼트'
+title: 'React - 엘리먼트'
 date: 2019-07-01 23:25:11
 category: 'react'
 description: '리액트의 엘리먼트에 대해 알아보고 불변객체란 무엇인지 알아봅니다.'
