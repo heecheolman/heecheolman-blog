@@ -21,28 +21,6 @@ $header-color: #272727;
   --blur: #5d5d5d;
   --light-blue: #f6f8fa;
 }
-html.darkmode:root {
-  --bg-color: #000;
-  --content-color: #fff;
-  --hover-bg-color: #fff;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #000;
-    --content-color: #fff;
-    --hover-bg-color: #fff;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg-color: #fff;
-    --content-color: #272727;
-    --hover-bg-color: #efefef;
-    --blur: #5d5d5d;
-    --light-blue: #f6f8fa;
-  }
-}
 * {
   box-sizing: border-box;
 }
@@ -54,13 +32,7 @@ html, body {
   //max-width: 700px;
   height: 100vh;
   background-color: var(--bg-color);
-  color: $content-color;
-  color: var(--bg-color);
 }
-//html.darkmode {
-//  background-color: #000;
-//  color: #fff;
-//}
 
 .markdown-body {
   font-family: initial !important;
