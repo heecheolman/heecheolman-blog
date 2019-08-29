@@ -42,6 +42,7 @@ selector::pseudo-element {
 * `:first-child`: 부모 요소 안에 있는 첫번째 자식만 선택하는 선택자
 * `:first-of-type`: 같은 태그의 첫번째 요소만 선택
 * `:last-of-type`: 같은 태그의 마지막 요소만 선택
+* `:not(:last-child)`: 마지막 요소를 제외한 것들 선
 
 ## 참고문서
 * [CSS3-셀렉터 - poiemaweb](https://poiemaweb.com/css3-selector)
