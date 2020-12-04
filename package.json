@@ -26,7 +26,7 @@
     "gatsby-transformer-remark": "^2.3.12",
     "gatsby-transformer-sharp": "^2.1.21",
     "github-markdown-css": "^3.0.1",
-    "highlight.js": "^9.15.8",
+    "highlight.js": "^10.4.1",
     "prismjs": "^1.16.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
